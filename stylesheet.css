@@ -1,0 +1,125 @@
+html {
+  /* background-image: url('') */
+  background-color: #bfbcff;
+  background-size: 90%;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+#figures {
+  max-width: 1000px;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+.slots {
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  background-color: #ffb5d2;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  /* border: 4px solid blue; */
+  position: relative;
+  top: -575px;
+  border: 3px solid blue;
+  border-radius: 50%;
+}
+#message-container {
+  color: blue;
+  position: relative;
+  top: 75px;
+  border: 3px solid blue;
+  height: 50px;
+  width: 688px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  text-transform: uppercase;
+  padding-top: 30px;
+  background-color: #ff5050;
+  border-radius: 30px;
+}
+button {
+  position: relative;
+  color: blue;
+  top: -560px;
+  height: 70px;
+  width: 688px;
+  margin: 14px;
+  padding: 10px;
+  justify-content: center;
+  background-color: #ff5050;
+  border: 3px solid blue;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 52px;
+  text-transform: uppercase;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+#title-text {
+  color: blue;
+  font-size: 36px;
+  position: relative;
+  top: 70px;
+  border: 3px solid blue;
+  height: 50px;
+  width: 688px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  padding-top: 10px;
+  background-color: #ff5050;
+  border-radius: 30px;
+}
+#slot-image-one {
+  background-image: "Images/null.png";
+  height: 150px;
+  max-width: 150px;
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+}
+#slot-image-two {
+  background-image: "Images/null.png";
+  height: 150px;
+  max-width: 150px;
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+}
+#slot-image-three {
+  background-image: "Images/null.png";
+  height: 150px;
+  max-width: 150px;
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+}
+#spin {
+  color: blue;
+  position: relative;
+  top: 45px;
+  border: 3px solid blue;
+  height: 50px;
+  width: 688px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  background-color: rgb(194, 119, 255);
+  border-radius: 30px;
+}
+/* #background {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1080px;
+} */
